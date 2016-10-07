@@ -1,0 +1,108 @@
+﻿@model bi130168d.Models.Auction
+@{
+    ViewBag.Title = "Auction";
+}
+
+<script type="text/javascript">
+    function component(x, v) {
+        return Math.floor(x / v);
+    }
+    var time_@Model.ID;
+    function timer(t) {
+        time_@Model.ID = t;
+        $('#timeVal_@Model.ID').val(t)
+        var interval_@Model.ID = setInterval(function () {
+            time_@Model.ID = $('#timeVal_@Model.ID').val();
+            time_@Model.ID--;
+            if (time_@Model.ID <= 10)
+                $('#time_@Model.ID').addClass('text-danger');
+            var days = component(time_@Model.ID, 24 * 60 * 60),
+                hours = component(time_@Model.ID, 60 * 60) % 24,
+                minutes = component(time_@Model.ID, 60) % 60,
+                seconds = component(time_@Model.ID, 1) % 60;
+            $('#timeVal_@Model.ID').val(time_@Model.ID);
+            if(days > 0)
+                $('#time_@Model.ID').text(days + " days, " + hours + ":" + minutes + ":" + seconds);
+            else
+                $('#time_@Model.ID').text(hours + ":" + minutes + ":" + seconds);
+            if(time_@Model.ID <= 0) {
+                $('#time_@Model.ID').text("0:0:0");
+                $('#bid_@Model.ID').removeClass('btn btn-warning').addClass('btn btn-default disabled');
+                clearInterval(interval_@Model.ID);
+            }
+        }, 1000);
+    }
+</script>
+
+
+<div class="col-sm-3">
+    <div class="panel panel-default">
+        <div class="panel-heading text-center" style="min-height: 57px; max-height: 57px;">
+            <h3 class="panel-title text-info"><strong><a href='@Url.Action("Details", "Auctions", new { id = Model.ID })'> @Html.DisplayFor(modelItem => Model.Name)</a></strong></h3>
+        </div>
+        <div class="panel-body text-center" style="min-height: 350px; max-height: 350px;">
+            @HtmlImage.showimage(Model.Image) <br />
+            @{ int val = 0;}
+            @if (Model.State == bi130168d.Models.AuctionState.Open)
+            {
+                TimeSpan timeSec = Model.ClosedTime.Value - DateTime.Now;
+                <strong><span id="time_@Model.ID"></span></strong>
+                <input type="hidden" id="timeVal_@Model.ID" />
+                <script>timer(@timeSec.TotalSeconds)</script>
+                val = Model.Price + Model.PriceGrowth;
+
+            }
+            else if (Model.State == bi130168d.Models.AuctionState.Ready)
+            {
+                <span class="text-muted"><strong>Not open</strong></span>
+                val = Model.Price;
+            }
+            else
+            {
+                <span class="text-muted"><strong>Ended</strong></span>
+                val = Model.Price + Model.PriceGrowth;
+            }
+            <br />
+            <span class="text-info"><strong>@Model.Price</strong></span>
+            <br />
+            <span id="price_@Model.ID" class="text-success"><strong>@val</strong></span>
+            <br />
+
+            @if (Model.State == bi130168d.Models.AuctionState.Open)
+            {
+                var user = "No bids Yet";
+                if (Model.Bids.Count > 0)
+                {
+                    DateTime maxDate = Model.Bids.Max(m => m.CreatedTime);
+                    bi130168d.Models.Bid bid = Model.Bids.Where(m => m.CreatedTime == maxDate).FirstOrDefault();
+                    user = @bid.ApplicationUser.UserName;
+                }
+                <div class="row" id="username_@Model.ID">@user</div>
+
+                <div class="row">
+                    <button id="bid_@Model.ID" class="btn btn-warning" value="Bid" onclick="bid(@Model.ID)">Bid</button>
+                </div>
+            }
+            else if (Model.State == bi130168d.Models.AuctionState.Ready)
+            {
+                <span class="btn btn-default disabled">Not open</span>
+            }
+            else if (Model.State == bi130168d.Models.AuctionState.Sold)
+            {
+                var user = "No Bids";
+                if (Model.Bids.Count > 0)
+                {
+                    DateTime maxDate = Model.Bids.Max(m => m.CreatedTime);
+                    bi130168d.Models.Bid bid = Model.Bids.Where(m => m.CreatedTime == maxDate).FirstOrDefault();
+                    user = @bid.ApplicationUser.UserName;
+                }
+                <div class="row" id="username_@Model.ID">@user</div>
+                <span class="btn btn-default disabled">Sold</span>
+            }
+            else
+            {
+                <span class="btn btn-default disabled">Expired</span>
+            }
+        </div>
+    </div>
+</div>

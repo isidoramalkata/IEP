@@ -1,0 +1,184 @@
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\ApplicationInsights.config
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\csc.exe
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\vbc.exe
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\bi130168d.dll.config
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\bi130168d.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\bi130168d.pdb
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Antlr3.Runtime.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\EntityFramework.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\EntityFramework.SqlServer.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.Web.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Newtonsoft.Json.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Owin.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\PagedList.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\PagedList.Mvc.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Helpers.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Mvc.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Optimization.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Razor.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.WebPages.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\WebGrease.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.Web.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\PagedList.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\PagedList.Mvc.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Helpers.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Mvc.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Optimization.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.Razor.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.WebPages.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Antlr3.Runtime.pdb
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Newtonsoft.Json.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\EntityFramework.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\EntityFramework.SqlServer.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\obj\Debug\bi130168d.csprojResolveAssemblyReference.cache
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\obj\Debug\bi130168d.Migrations.bi130168d.resources
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\obj\Debug\bi130168d.csproj.GenerateResource.Cache
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\obj\Debug\bi130168d.dll
+C:\Users\Vlada\documents\visual studio 2015\Projects\bi130168d\bi130168d\obj\Debug\bi130168d.pdb
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\ApplicationInsights.config
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\csc.exe
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\vbc.exe
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\bi130168d.dll.config
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\bi130168d.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\bi130168d.pdb
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Antlr3.Runtime.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\EntityFramework.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\EntityFramework.SqlServer.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.Web.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Newtonsoft.Json.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Owin.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\PagedList.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\PagedList.Mvc.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Helpers.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Mvc.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Optimization.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Razor.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.WebPages.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\WebGrease.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.Web.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\PagedList.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\PagedList.Mvc.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Helpers.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Mvc.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Optimization.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.Razor.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.WebPages.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Antlr3.Runtime.pdb
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Newtonsoft.Json.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\EntityFramework.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\EntityFramework.SqlServer.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\obj\Debug\bi130168d.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\obj\Debug\bi130168d.dll
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\obj\Debug\bi130168d.pdb
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\obj\Debug\bi130168d.Migrations.bi130168.resources
+C:\Users\Vladimir\Desktop\bi130168d\bi130168d\bi130168d\obj\Debug\bi130168d.csproj.GenerateResource.Cache

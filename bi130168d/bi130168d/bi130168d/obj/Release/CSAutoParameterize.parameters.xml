@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:bi130168d.database.windows.net,1433;Initial Catalog=bi130168d;Persist Security Info=False;User ID=bi130168d;Password=cd45F37B66c3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Vladimir\\Desktop\\bi130168d\\bi130168d\\bi130168d\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="bi130168dEntities-Web.config Connection String" description="bi130168dEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=bi130168d.database.windows.net;initial catalog=bi130168d;user id=bi130168d;password=cd45F37B66c3;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Vladimir\\Desktop\\bi130168d\\bi130168d\\bi130168d\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='bi130168dEntities']/@connectionString" />
+  </parameter>
+</parameters>

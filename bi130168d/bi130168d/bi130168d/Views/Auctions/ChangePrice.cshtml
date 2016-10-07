@@ -1,0 +1,39 @@
+﻿@model bi130168d.Models.ChangePriceViewModel
+
+@{
+    ViewBag.Title = "ChangePrice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<center>
+    <h2>Change Name</h2>
+
+
+    @using (Html.BeginForm("ChangePrice", "Auctions"))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Change Price Form</h4>
+        <div class="form-horizontal">
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @Html.HiddenFor(model => model.ID)
+
+            <div class="form-group">
+                <div class="col-md-offset-4 col-md-4">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+</center>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

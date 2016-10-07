@@ -1,0 +1,58 @@
+﻿@model PagedList.IPagedList<bi130168d.Models.Auction>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Auctions";
+}
+
+<h2 class="text-center">Auctions</h2> <br />
+
+    <p>
+        @Html.ActionLink("Create New", "Create", "", new { @class = "btn btn-primary" })
+    </p>
+
+    <div class="col">
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-center">
+                            <h3 class="panel-title"><a href='@Url.Action("Details", "Auctions", new { id = item.ID })'> @Html.DisplayFor(modelItem => item.Name)</a></h3>
+                        </div>
+                        <div class="panel-body text-center" style="min-height: 380px; max-height: 380px;">
+                            @HtmlImage.showimage(item.Image) <br />
+                            @if (item.State == bi130168d.Models.AuctionState.Open)
+                            {
+                                <span class="text-danger"><strong>@TimeSpan.FromSeconds(item.Time).ToString()</strong></span><br />
+                            }
+                            else if (item.State == bi130168d.Models.AuctionState.Ready || item.State == bi130168d.Models.AuctionState.Draft)
+                            {
+                                <span class="text-muted"><strong>Not open</strong></span> <br />
+                            }
+                            else
+                            {
+                                <span class="text-muted"><strong>Ended</strong></span><br />
+                            }
+                            @Html.DisplayFor(modelItem => item.CreatedTime) <br />
+                            @Html.DisplayFor(modelItem => item.Price) <br />
+                            @if (item.State == bi130168d.Models.AuctionState.Draft)
+                            {
+                                @Html.ActionLink("Ready", "Ready", new { id = item.ID }, new { @class = "btn btn-primary" })
+                            }
+                            @if (item.State == bi130168d.Models.AuctionState.Ready)
+                            {
+                                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) <br />
+                                @Html.ActionLink("Delete", "Delete", new { id = item.ID }) <br />
+                                @Html.ActionLink("Open", "Open", new { id = item.ID }, new { @class = "btn btn-primary" })
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <br />
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+        @Html.PagedListPager(Model, page => Url.Action("Auctions", new { page }))
+    </div>

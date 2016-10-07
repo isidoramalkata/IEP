@@ -1,0 +1,108 @@
+﻿@model bi130168d.Models.IndexViewModel
+@{
+    ViewBag.Title = "Manage";
+}
+
+<script type="text/javascript" src="http://stage.centili.com/widget/js/c-mobile-payment-scripts.js"></script>
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Change your account settings</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>First name: </dt>
+        <dd>@Model.User.Name  [ @Html.ActionLink("Change name", "ChangeName", "Manage") ]</dd>
+        <dt>Last name: </dt>
+        <dd>@Model.User.Surname  [ @Html.ActionLink("Change surname", "ChangeSurname", "Manage") ]</dd>
+        <dt>Email: </dt>
+        <dd>@Model.User.Email  [ @Html.ActionLink("Change email", "ChangeEmail", "Manage") ]</dd>
+
+        <dt>Password:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Change your password", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Create", "SetPassword")
+            }
+            ]
+        </dd>
+
+        @if (User.IsInRole("User"))
+        {
+            <dt>Tokens:</dt>
+            
+            <dd>@Model.User.Tokens Buy more: <a id="c-mobile-payment-widget" href="http://stage.centili.com/widget/WidgetModule?api=7fd28bea04aeb1c9a006aaebf8c16426&clientid=@Model.User.Id"><img src="https://www.centili.com/images/centili-widget-button.png" /></a></dd>
+            <dt>Won auctions:</dt>
+            <dd>@Html.ActionLink("See all", "WonAuctions", "Auctions")</dd>
+            <dt>View token orders:</dt>
+            <dd>@Html.ActionLink("See all", "Index", "Orders")</dd>
+        }
+ @*       <dt>External Logins:</dt>
+        <dd>
+            @Model.Logins.Count [
+            @Html.ActionLink("Manage", "ManageLogins") ]
+        </dd>
+        @*
+            Phone Numbers can used as a second factor of verification in a two-factor authentication system.
+             
+             See <a href="http://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
+                for details on setting up this ASP.NET application to support two-factor authentication using SMS.
+             
+             Uncomment the following block after you have set up two-factor authentication
+        *@
+        @*  
+            <dt>Phone Number:</dt>
+            <dd>
+                @(Model.PhoneNumber ?? "None")
+                @if (Model.PhoneNumber != null)
+                {
+                    <br />
+                    <text>[&nbsp;&nbsp;@Html.ActionLink("Change", "AddPhoneNumber")&nbsp;&nbsp;]</text>
+                    using (Html.BeginForm("RemovePhoneNumber", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <text>[<input type="submit" value="Remove" class="btn-link" />]</text>
+                    }
+                }
+                else
+                {
+                    <text>[&nbsp;&nbsp;@Html.ActionLink("Add", "AddPhoneNumber")
+                }
+            </dd>
+        
+        <dt>Two-Factor Authentication:</dt>
+        <dd>
+            <p>
+                There are no two-factor authentication providers configured. See <a href="http://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
+                for details on setting up this ASP.NET application to support two-factor authentication.
+            </p>
+            @if (Model.TwoFactor)
+                {
+                    using (Html.BeginForm("DisableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <text>Enabled
+                        <input type="submit" value="Disable" class="btn btn-link" />
+                        </text>
+                    }
+                }
+                else
+                {
+                    using (Html.BeginForm("EnableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <text>Disabled
+                        <input type="submit" value="Enable" class="btn btn-link" />
+                        </text>
+                    }
+                }
+        </dd>*@
+    </dl>
+</div>
